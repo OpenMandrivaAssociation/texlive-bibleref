@@ -1,3 +1,9 @@
+# revision 21145
+# category Package
+# catalog-ctan /macros/latex/contrib/bibleref
+# catalog-date 2011-01-19 23:57:38 +0100
+# catalog-license lppl1.3
+# catalog-version 1.14
 Name:		texlive-bibleref
 Version:	1.14
 Release:	1
@@ -58,6 +64,7 @@ formats.
 %doc %{_texmfdistdir}/source/latex/bibleref/bibleref.dtx
 %doc %{_texmfdistdir}/source/latex/bibleref/bibleref.ins
 %doc %{_texmfdistdir}/source/latex/bibleref/bibleref.perl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ formats.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
