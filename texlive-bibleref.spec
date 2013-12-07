@@ -6,7 +6,7 @@
 # catalog-version 1.14
 Name:		texlive-bibleref
 Version:	1.14
-Release:	3
+Release:	4
 Summary:	Format bible citations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref
