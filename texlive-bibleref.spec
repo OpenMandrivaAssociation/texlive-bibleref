@@ -1,5 +1,5 @@
 Name:		texlive-bibleref
-Version:	1.17
+Version:	1.17a
 Release:	1
 Summary:	Format bible citations
 Group:		Publishing
