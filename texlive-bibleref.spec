@@ -5,9 +5,9 @@ Summary:	Format bible citations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.r55626.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.doc.r55626.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.source.r55626.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
