@@ -1,13 +1,13 @@
 Name:		texlive-bibleref
-Version:	1.23
+Version:	55626
 Release:	1
 Summary:	Format bible citations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.r55626.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.doc.r55626.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.source.r55626.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -19,12 +19,12 @@ to parts of the Christian bible, in a number of well-defined
 formats.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -35,7 +35,8 @@ formats.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
