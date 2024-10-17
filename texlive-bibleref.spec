@@ -3,7 +3,7 @@ Version:	55626
 Release:	2
 Summary:	Format bible citations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bibleref
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref.doc.r%{version}.tar.xz
